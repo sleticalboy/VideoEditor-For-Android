@@ -19,9 +19,8 @@ import java.nio.ByteBuffer;
  */
 
 public class MyApplication extends Application{
+
     private static Context mContext;
-
-
 
     @Override
     public void onCreate() {
@@ -29,12 +28,6 @@ public class MyApplication extends Application{
         mContext = this;
         Log.e("thread","  线程值  "+Thread.currentThread());
         Constants.init(this);
-    }
-
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-
     }
 
     public static Context getContext() {

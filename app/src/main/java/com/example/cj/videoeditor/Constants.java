@@ -46,8 +46,7 @@ public class Constants {
     public static final int mode_por_encode_height_16_9 = 540;
 
     public static void init(Context context) {
-        DisplayMetrics mDisplayMetrics = context.getResources()
-                .getDisplayMetrics();
+        DisplayMetrics mDisplayMetrics = context.getResources().getDisplayMetrics();
         screenWidth = mDisplayMetrics.widthPixels;
         screenHeight = mDisplayMetrics.heightPixels;
         mode_por_width_9_16 = screenWidth;

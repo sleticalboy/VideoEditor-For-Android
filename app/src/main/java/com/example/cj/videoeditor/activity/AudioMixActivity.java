@@ -1,9 +1,8 @@
 package com.example.cj.videoeditor.activity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +14,6 @@ import com.example.cj.videoeditor.R;
 import com.example.cj.videoeditor.mediacodec.AudioCodec;
 
 import java.io.File;
-import java.io.IOException;
 
 /**
  * Created by cj on 2017/11/19.
